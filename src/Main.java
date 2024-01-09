@@ -13,7 +13,12 @@ public class Main {
         }
     }
 
-    public static boolean isUnique() {
+    /**
+     * isUnique checks if all of the characters in the string
+     * are unique
+     * @return
+     */
+    public static boolean isUnique(String word) {
         return false;
     }
 }
