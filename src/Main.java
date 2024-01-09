@@ -12,7 +12,7 @@ public class Main {
     }
     public static boolean isUnique(String inputString)
     {
-        HashSet testString = new HashSet(); //maybe not hashSet?
+        HashSet testString = new HashSet(); //Maybe not hashSet?
         for(int i = 0; i < inputString.length(); i++)
         {
             //still need to check format before add.
