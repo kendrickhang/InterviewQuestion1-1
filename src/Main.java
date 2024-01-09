@@ -15,6 +15,7 @@ public class Main {
         HashSet testString = new HashSet();
         for(int i = 0; i < inputString.length(); i++)
         {
+            //still need to check format before add.
             if (!(testString.add(inputString.charAt(i))))
                 return false;
         }
